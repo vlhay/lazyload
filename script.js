@@ -6,7 +6,7 @@ App.prototype.$ = function(elem) {
 
 App.prototype.getData = async function(url) {
     // const api_url = `http://localhost/XVideos-PornHub-RedTube-API/src/?data=${url}`;
-    const api_url = `src/?data=${url}`;
+    const api_url = `https://appsdev.cyou/xv-ph-rt/api/?data=${url}`;
 
     let result = await fetch(api_url, {
             method: 'GET',
